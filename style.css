@@ -1,0 +1,31 @@
+.header-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 3fr;
+    background:black;
+}
+.header-item {
+    color: white;
+    margin: 4px;
+    line-height:45px;
+}
+.header-item:hover {
+    cursor: pointer;
+    Color:Yellow;
+}
+.header-container >a {
+    text-decoration: none;
+}
+#about {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 5px;
+    margin-top: 10px;
+}
+.mybutton {
+    margin:30px;
+    align-self: center;
+}
+a {
+    text-decoration: none;
+    text-emphasis-color: yellow;
+}
